@@ -1,0 +1,32 @@
+.one-todo{
+    box-shadow: 0 0 10px black, 0 0 20px black; 
+    margin-top: 5px;
+    padding: 10px;
+    max-width: 350px;
+    p{
+        font-size: 16px;
+        font-weight: 300;
+        color: rgb(17, 1, 87);
+    }
+    .one-todo__value{
+        color: black;
+        font-size: 18px;
+        font-weight: 400;
+        letter-spacing: -0.6px;
+    }
+    .one-todo__button{
+        cursor: pointer;
+        font-size: 18px;
+        font-weight: 400;
+    }
+    .one-todo__delete{
+        background-color: rgba(207, 226, 230, 0);
+        color: red;
+        font-weight: 800;
+        margin-right: 20px;
+        border: none;
+    }
+    .one-todo__edit{
+        padding:0 20px 0 20px;
+    }
+}

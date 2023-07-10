@@ -1,0 +1,38 @@
+.add-todo {
+    padding: 10px;
+
+    label {
+        text-transform: uppercase;
+        font-size: 18px;
+        font-weight: 600;
+        display: block;
+        color: rgb(66, 62, 62);
+        margin-left: 10px;
+        margin-bottom: 4px;
+    }
+
+    input {
+        font-size: 20px;
+        padding: 4px;
+        font-weight: 300;
+        margin-left: 10px;
+    }
+
+    .login-form__title__errors {
+        min-height: 20px;
+        margin-left: 10px;
+    }
+
+    .login-form__title__errors {
+        p {
+            color: red;
+            font-weight: 300;
+            font-size: 14px;
+        }
+    }
+
+    input:focus {
+        background-color: rgb(188, 212, 212);
+    }
+
+}

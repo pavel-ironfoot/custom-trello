@@ -1,0 +1,46 @@
+.header {
+    min-width: fit-content;
+    min-height: 100px;
+    padding: 10px;
+    background-color: rgb(29, 28, 28);
+    padding-left: 50px;
+
+    h1 {
+        width: fit-content;
+        margin-top: 10px;
+        text-transform: uppercase;
+        font-size: 48px;
+        font-weight: 600;
+        color: rgb(29, 28, 28);
+        position: relative;
+        -webkit-text-stroke: 1.8px rgb(129, 158, 158);
+
+        &::before {
+            content: 'Trello(Handmade)...';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 0%;
+            height: 100%;
+            color: rgb(129, 158, 158);
+            -webkit-text-stroke: 0px rgb(29, 28, 28);
+            border-right: 4px solid rgb(129, 158, 158);
+            overflow: hidden;
+            animation: animateMove 16s linear infinite;
+        }
+    }
+}
+
+@keyframes animateMove {
+
+    0%,
+    15%,
+    100% {
+        width: 0;
+    }
+
+    70%,
+    90% {
+        width: 100%;
+    }
+}
