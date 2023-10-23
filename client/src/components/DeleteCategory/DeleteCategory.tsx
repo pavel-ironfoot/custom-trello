@@ -16,7 +16,7 @@ export const DeleteCategory: React.FC<AddCategoryProps> = ({ status }) => {
 
     return (
         <div className='delete-category'>
-            <h1 onClick={deleteCategory}>X</h1>
+            <h1 onClick={deleteCategory}>+</h1>
         </div>
     );
 }
